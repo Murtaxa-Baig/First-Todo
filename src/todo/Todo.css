@@ -1,0 +1,99 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        display: block;
+       
+    }
+}
+.mainbox{
+    
+    border-radius: 10px;
+    justify-content: center;
+    width: 80%;
+    background-color: rgb(152, 110, 110);
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 100px;
+    margin-right: 10%;
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 30px;
+    flex-direction: column;
+
+}
+#heading{
+    padding-left: 10px;
+    color: white;
+}
+
+.box1{
+    width: 80%;
+    background-color: rgb(177, 153, 153);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+
+}
+.box2{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80%;
+    height: auto;
+    background-color: rgb(177, 153, 153);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.input{
+    border: 2px solid rgb(232, 232, 75);
+    border-radius: 5px;
+    outline: none;
+}
+.btnadd{
+    border: 2px solid rgb(232, 232, 75);
+    border-radius: 10px;
+    background-color:rgb(232, 232, 75) ;
+    outline: none;
+    margin-right: 20px;
+    padding: auto;
+
+}
+.heading{
+    color: rgb(99, 49, 49);
+    margin: 0px;
+    
+}
+.btncomp{
+    border: 2px solid rgb(26, 181, 106);
+    border-radius: 10px;
+    color: rgb(30, 174, 102);
+    outline: none;
+    margin: 15px 5px 10px;
+
+}
+.btndel{
+    border: 2px solid #a13d2d ;
+    border-radius: 10px;
+    color: #a13d2d;
+    outline: none;
+    margin: 15px 5px 10px;
+}
+.btnupdate{
+    border: 2px solid #a13d2d ;
+    border-radius: 10px;
+    color: #a13d2d;
+    outline: none;
+    margin: 15px 5px 10px;
+
+}
